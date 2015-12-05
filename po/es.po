@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-22 20:19+0100\n"
+"POT-Creation-Date: 2015-12-05 21:42+0100\n"
 "PO-Revision-Date: 2015-11-05 22:42+0000\n"
 "Last-Translator: Jesus Castagnetto <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1204,6 +1204,10 @@ msgstr ""
 msgid "About"
 msgstr "Acerca de"
 
+#: ../terminatorlib/preferences.glade.h:163
+msgid "Filter:"
+msgstr "Filtro:"
+
 #: ../terminatorlib/prefseditor.py:85
 msgid "Increase font size"
 msgstr "Incrementar tamaño de letra"
@@ -1484,11 +1488,11 @@ msgstr "Cambiar a perfil previo"
 msgid "Open the manual"
 msgstr "Abrir el manual"
 
-#: ../terminatorlib/prefseditor.py:1100 ../terminatorlib/prefseditor.py:1105
+#: ../terminatorlib/prefseditor.py:1124 ../terminatorlib/prefseditor.py:1129
 msgid "New Profile"
 msgstr "Perfil nuevo"
 
-#: ../terminatorlib/prefseditor.py:1145 ../terminatorlib/prefseditor.py:1150
+#: ../terminatorlib/prefseditor.py:1169 ../terminatorlib/prefseditor.py:1174
 msgid "New Layout"
 msgstr "Nuevo Diseño"
 

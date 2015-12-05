@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: terminator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-22 20:19+0100\n"
+"POT-Creation-Date: 2015-12-05 21:44+0100\n"
 "PO-Revision-Date: 2015-09-21 11:18+0000\n"
 "Last-Translator: Flávio Vinícius de Castro Alves <flavioviniciuscmp@gmail."
 "com>\n"
@@ -1195,6 +1195,10 @@ msgstr ""
 msgid "About"
 msgstr "Sobre"
 
+#: ../terminatorlib/preferences.glade.h:163
+msgid "Filter:"
+msgstr ""
+
 #: ../terminatorlib/prefseditor.py:85
 msgid "Increase font size"
 msgstr "Aumentar tamanho da fonte"
@@ -1475,11 +1479,11 @@ msgstr "Alternar para o perfil anterior"
 msgid "Open the manual"
 msgstr "Abrir o manual"
 
-#: ../terminatorlib/prefseditor.py:1100 ../terminatorlib/prefseditor.py:1105
+#: ../terminatorlib/prefseditor.py:1124 ../terminatorlib/prefseditor.py:1129
 msgid "New Profile"
 msgstr "Novo perfil"
 
-#: ../terminatorlib/prefseditor.py:1145 ../terminatorlib/prefseditor.py:1150
+#: ../terminatorlib/prefseditor.py:1169 ../terminatorlib/prefseditor.py:1174
 msgid "New Layout"
 msgstr "Nova disposição"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: terminator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-22 20:19+0100\n"
+"POT-Creation-Date: 2015-12-05 21:44+0100\n"
 "PO-Revision-Date: 2015-08-10 14:45+0000\n"
 "Last-Translator: ub <xenolith0bytetestcomgreen@gmail.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
@@ -1165,6 +1165,10 @@ msgstr ""
 msgid "About"
 msgstr "情報"
 
+#: ../terminatorlib/preferences.glade.h:163
+msgid "Filter:"
+msgstr ""
+
 #: ../terminatorlib/prefseditor.py:85
 msgid "Increase font size"
 msgstr "文字サイズを拡大"
@@ -1445,11 +1449,11 @@ msgstr ""
 msgid "Open the manual"
 msgstr ""
 
-#: ../terminatorlib/prefseditor.py:1100 ../terminatorlib/prefseditor.py:1105
+#: ../terminatorlib/prefseditor.py:1124 ../terminatorlib/prefseditor.py:1129
 msgid "New Profile"
 msgstr "新しいプロファイル"
 
-#: ../terminatorlib/prefseditor.py:1145 ../terminatorlib/prefseditor.py:1150
+#: ../terminatorlib/prefseditor.py:1169 ../terminatorlib/prefseditor.py:1174
 msgid "New Layout"
 msgstr "新しいレイアウト"
 

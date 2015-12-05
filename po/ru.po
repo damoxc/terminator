@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: terminator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-22 20:19+0100\n"
+"POT-Creation-Date: 2015-12-05 21:44+0100\n"
 "PO-Revision-Date: 2015-11-02 17:46+0000\n"
 "Last-Translator: Sandro <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -1174,6 +1174,10 @@ msgstr ""
 msgid "About"
 msgstr ""
 
+#: ../terminatorlib/preferences.glade.h:163
+msgid "Filter:"
+msgstr ""
+
 #: ../terminatorlib/prefseditor.py:85
 msgid "Increase font size"
 msgstr "Увеличить размер шрифта"
@@ -1454,11 +1458,11 @@ msgstr ""
 msgid "Open the manual"
 msgstr "Открыть руководство"
 
-#: ../terminatorlib/prefseditor.py:1100 ../terminatorlib/prefseditor.py:1105
+#: ../terminatorlib/prefseditor.py:1124 ../terminatorlib/prefseditor.py:1129
 msgid "New Profile"
 msgstr "Создать профиль"
 
-#: ../terminatorlib/prefseditor.py:1145 ../terminatorlib/prefseditor.py:1150
+#: ../terminatorlib/prefseditor.py:1169 ../terminatorlib/prefseditor.py:1174
 msgid "New Layout"
 msgstr "Новое расположение"
 
