@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-05 21:42+0100\n"
+"POT-Creation-Date: 2015-12-06 10:18+0100\n"
 "PO-Revision-Date: 2015-11-05 22:42+0000\n"
 "Last-Translator: Jesus Castagnetto <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,7 @@ msgstr ""
 #: ../data/terminator.desktop.in.h:1 ../data/terminator.appdata.xml.in.h:1
 #: ../terminatorlib/plugins/activitywatch.py:82
 #: ../terminatorlib/plugins/activitywatch.py:161
-#: ../terminatorlib/preferences.glade.h:153
+#: ../terminatorlib/preferences.glade.h:154
 msgid "Terminator"
 msgstr "Terminator"
 
@@ -85,7 +85,7 @@ msgid "Multiple terminals in one window"
 msgstr "Múltiples terminales en una ventana"
 
 #: ../data/terminator.appdata.xml.in.h:3
-#: ../terminatorlib/preferences.glade.h:154
+#: ../terminatorlib/preferences.glade.h:155
 msgid "The robot future of terminals"
 msgstr "El futuro robot de terminales"
 
@@ -1143,22 +1143,26 @@ msgid "Keybinding"
 msgstr "Combinación de teclas"
 
 #: ../terminatorlib/preferences.glade.h:149
+msgid "Filter:"
+msgstr "Filtro:"
+
+#: ../terminatorlib/preferences.glade.h:150
 msgid "Keybindings"
 msgstr "Asociaciones de teclas"
 
-#: ../terminatorlib/preferences.glade.h:150
+#: ../terminatorlib/preferences.glade.h:151
 msgid "Plugin"
 msgstr "Complementos"
 
-#: ../terminatorlib/preferences.glade.h:151
+#: ../terminatorlib/preferences.glade.h:152
 msgid "This plugin has no configuration options"
 msgstr "Este plugin no tiene opciones de configuración"
 
-#: ../terminatorlib/preferences.glade.h:152
+#: ../terminatorlib/preferences.glade.h:153
 msgid "Plugins"
 msgstr "Plugins"
 
-#: ../terminatorlib/preferences.glade.h:155
+#: ../terminatorlib/preferences.glade.h:156
 msgid ""
 "The goal of this project is to produce a useful tool for arranging "
 "terminals. It is inspired by programs such as gnome-multi-term, quadkonsole, "
@@ -1184,11 +1188,11 @@ msgstr ""
 "por favor repórtalas en nuestro archivo de lista de deseos y de errores (ver "
 "a la izquierda para el enlace de Desarrollo)"
 
-#: ../terminatorlib/preferences.glade.h:158
+#: ../terminatorlib/preferences.glade.h:159
 msgid "The Manual"
 msgstr "EL Manual"
 
-#: ../terminatorlib/preferences.glade.h:159
+#: ../terminatorlib/preferences.glade.h:160
 msgid ""
 "<a href=\"http://gnometerminator.blogspot.com/p/introduction.html"
 "\">Homepage</a>\n"
@@ -1200,13 +1204,9 @@ msgstr ""
 "<a href=\"http://gnometerminator.blogspot.com/\">Blog / Noticias</a>\n"
 "<a href=\"https://launchpad.net/terminator\">Desarrollo</a>"
 
-#: ../terminatorlib/preferences.glade.h:162
+#: ../terminatorlib/preferences.glade.h:163
 msgid "About"
 msgstr "Acerca de"
-
-#: ../terminatorlib/preferences.glade.h:163
-msgid "Filter:"
-msgstr "Filtro:"
 
 #: ../terminatorlib/prefseditor.py:85
 msgid "Increase font size"
@@ -1341,158 +1341,162 @@ msgid "Maximise terminal"
 msgstr "Maximizar terminal"
 
 #: ../terminatorlib/prefseditor.py:120
+msgid "Show/Hide tabs"
+msgstr "Mostrar/Ocultar pestañas"
+
+#: ../terminatorlib/prefseditor.py:121
 msgid "Zoom terminal"
 msgstr "Ampliar terminal"
 
-#: ../terminatorlib/prefseditor.py:121
+#: ../terminatorlib/prefseditor.py:122
 msgid "Switch to the next tab"
 msgstr "Cambiar a la siguiente pestaña"
 
-#: ../terminatorlib/prefseditor.py:122
+#: ../terminatorlib/prefseditor.py:123
 msgid "Switch to the previous tab"
 msgstr "Cambiar a la pestaña anterior"
 
-#: ../terminatorlib/prefseditor.py:123
+#: ../terminatorlib/prefseditor.py:124
 msgid "Switch to the first tab"
 msgstr "Cambiar a la primera pestaña"
 
-#: ../terminatorlib/prefseditor.py:124
+#: ../terminatorlib/prefseditor.py:125
 msgid "Switch to the second tab"
 msgstr "Cambiar a la segunda pestaña"
 
-#: ../terminatorlib/prefseditor.py:125
+#: ../terminatorlib/prefseditor.py:126
 msgid "Switch to the third tab"
 msgstr "Cambiar a la tercera pestaña"
 
-#: ../terminatorlib/prefseditor.py:126
+#: ../terminatorlib/prefseditor.py:127
 msgid "Switch to the fourth tab"
 msgstr "Cambiar a la cuarta pestaña"
 
-#: ../terminatorlib/prefseditor.py:127
+#: ../terminatorlib/prefseditor.py:128
 msgid "Switch to the fifth tab"
 msgstr "Cambiar a la quinta pestaña"
 
-#: ../terminatorlib/prefseditor.py:128
+#: ../terminatorlib/prefseditor.py:129
 msgid "Switch to the sixth tab"
 msgstr "Cambiar a la sexta pestaña"
 
-#: ../terminatorlib/prefseditor.py:129
+#: ../terminatorlib/prefseditor.py:130
 msgid "Switch to the seventh tab"
 msgstr "Cambiar a la séptima pestaña"
 
-#: ../terminatorlib/prefseditor.py:130
+#: ../terminatorlib/prefseditor.py:131
 msgid "Switch to the eighth tab"
 msgstr "Cambiar a la octava pestaña"
 
-#: ../terminatorlib/prefseditor.py:131
+#: ../terminatorlib/prefseditor.py:132
 msgid "Switch to the ninth tab"
 msgstr "Cambiar a la novena pestaña"
 
-#: ../terminatorlib/prefseditor.py:132
+#: ../terminatorlib/prefseditor.py:133
 msgid "Switch to the tenth tab"
 msgstr "Cambiar a la décima pestaña"
 
-#: ../terminatorlib/prefseditor.py:133
+#: ../terminatorlib/prefseditor.py:134
 msgid "Toggle fullscreen"
 msgstr "Pantalla completa"
 
-#: ../terminatorlib/prefseditor.py:134
+#: ../terminatorlib/prefseditor.py:135
 msgid "Reset the terminal"
 msgstr "Resetear la terminal"
 
-#: ../terminatorlib/prefseditor.py:135
+#: ../terminatorlib/prefseditor.py:136
 msgid "Reset and clear the terminal"
 msgstr "Resetear y limpiar la terminal"
 
-#: ../terminatorlib/prefseditor.py:136
+#: ../terminatorlib/prefseditor.py:137
 msgid "Toggle window visibility"
 msgstr "Cambiar visibilidad de la ventana"
 
-#: ../terminatorlib/prefseditor.py:137
+#: ../terminatorlib/prefseditor.py:138
 msgid "Group all terminals"
 msgstr "Agrupar todos los terminales"
 
-#: ../terminatorlib/prefseditor.py:138
+#: ../terminatorlib/prefseditor.py:139
 msgid "Group/Ungroup all terminals"
 msgstr "Agrupar/Desagrupar todos los terminales"
 
-#: ../terminatorlib/prefseditor.py:139
+#: ../terminatorlib/prefseditor.py:140
 msgid "Ungroup all terminals"
 msgstr "Desagrupar todos los terminales"
 
-#: ../terminatorlib/prefseditor.py:140
+#: ../terminatorlib/prefseditor.py:141
 msgid "Group terminals in tab"
 msgstr "Agrupar terminales en pestaña"
 
-#: ../terminatorlib/prefseditor.py:141
+#: ../terminatorlib/prefseditor.py:142
 msgid "Group/Ungroup terminals in tab"
 msgstr "Agrupar/Desagrupar terminales en pestaña"
 
-#: ../terminatorlib/prefseditor.py:142
+#: ../terminatorlib/prefseditor.py:143
 msgid "Ungroup terminals in tab"
 msgstr "Desagrupar terminales en pestaña"
 
-#: ../terminatorlib/prefseditor.py:143
+#: ../terminatorlib/prefseditor.py:144
 msgid "Create a new window"
 msgstr "Crea una ventana nueva"
 
-#: ../terminatorlib/prefseditor.py:144
+#: ../terminatorlib/prefseditor.py:145
 msgid "Spawn a new Terminator process"
 msgstr "Lanzar un nuevo proceso de Terminator"
 
-#: ../terminatorlib/prefseditor.py:145
+#: ../terminatorlib/prefseditor.py:146
 msgid "Don't broadcast key presses"
 msgstr "No difundir las teclas presionadas"
 
-#: ../terminatorlib/prefseditor.py:146
+#: ../terminatorlib/prefseditor.py:147
 msgid "Broadcast key presses to group"
 msgstr "Difundir las teclas presionadas al grupo"
 
-#: ../terminatorlib/prefseditor.py:147
+#: ../terminatorlib/prefseditor.py:148
 msgid "Broadcast key events to all"
 msgstr "Difundir las teclas presionadas a todos"
 
-#: ../terminatorlib/prefseditor.py:148
+#: ../terminatorlib/prefseditor.py:149
 msgid "Insert terminal number"
 msgstr "Insertar número de terminal"
 
-#: ../terminatorlib/prefseditor.py:149
+#: ../terminatorlib/prefseditor.py:150
 msgid "Insert padded terminal number"
 msgstr "Insertar número de terminal separado del margen"
 
-#: ../terminatorlib/prefseditor.py:150
+#: ../terminatorlib/prefseditor.py:151
 msgid "Edit window title"
 msgstr "Editar titulo de ventana"
 
-#: ../terminatorlib/prefseditor.py:151
+#: ../terminatorlib/prefseditor.py:152
 msgid "Edit terminal title"
 msgstr ""
 
-#: ../terminatorlib/prefseditor.py:152
+#: ../terminatorlib/prefseditor.py:153
 msgid "Edit tab title"
 msgstr ""
 
-#: ../terminatorlib/prefseditor.py:153
+#: ../terminatorlib/prefseditor.py:154
 msgid "Open layout launcher window"
 msgstr "Abrir ventana de lanzador de disposición"
 
-#: ../terminatorlib/prefseditor.py:154
+#: ../terminatorlib/prefseditor.py:155
 msgid "Switch to next profile"
 msgstr "Cambiar al siguiente perfil"
 
-#: ../terminatorlib/prefseditor.py:155
+#: ../terminatorlib/prefseditor.py:156
 msgid "Switch to previous profile"
 msgstr "Cambiar a perfil previo"
 
-#: ../terminatorlib/prefseditor.py:156
+#: ../terminatorlib/prefseditor.py:157
 msgid "Open the manual"
 msgstr "Abrir el manual"
 
-#: ../terminatorlib/prefseditor.py:1124 ../terminatorlib/prefseditor.py:1129
+#: ../terminatorlib/prefseditor.py:1128 ../terminatorlib/prefseditor.py:1133
 msgid "New Profile"
 msgstr "Perfil nuevo"
 
-#: ../terminatorlib/prefseditor.py:1169 ../terminatorlib/prefseditor.py:1174
+#: ../terminatorlib/prefseditor.py:1173 ../terminatorlib/prefseditor.py:1178
 msgid "New Layout"
 msgstr "Nuevo Diseño"
 
@@ -1670,19 +1674,19 @@ msgstr "_Insertar número de terminal"
 msgid "Insert _padded terminal number"
 msgstr "Insertar número de terminal de relleno (_padded)"
 
-#: ../terminatorlib/terminal.py:1376
+#: ../terminatorlib/terminal.py:1392
 msgid "Unable to find a shell"
 msgstr "Imposible encontrar una terminal"
 
-#: ../terminatorlib/terminal.py:1404
+#: ../terminatorlib/terminal.py:1420
 msgid "Unable to start shell:"
 msgstr "Imposible arrancar la terminal:"
 
-#: ../terminatorlib/terminal.py:1812
+#: ../terminatorlib/terminal.py:1831
 msgid "Rename Window"
 msgstr "Renombrar ventana"
 
-#: ../terminatorlib/terminal.py:1821
+#: ../terminatorlib/terminal.py:1840
 msgid "Enter a new title for the Terminator window..."
 msgstr "Introduzca un nuevo título para la ventana de Terminator..."
 

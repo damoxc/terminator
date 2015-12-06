@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: terminator\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-05 21:44+0100\n"
+"POT-Creation-Date: 2015-12-06 10:18+0100\n"
 "PO-Revision-Date: 2015-10-05 00:18+0000\n"
 "Last-Translator: Nybble <wuxb45@gmail.com>\n"
 "Language-Team: Simplified Chinese <zh_CN@li.org>\n"
@@ -81,7 +81,7 @@ msgstr "终端UUID如果未设置TERMINATOR_UUID环境变量"
 #: ../data/terminator.desktop.in.h:1 ../data/terminator.appdata.xml.in.h:1
 #: ../terminatorlib/plugins/activitywatch.py:82
 #: ../terminatorlib/plugins/activitywatch.py:161
-#: ../terminatorlib/preferences.glade.h:153
+#: ../terminatorlib/preferences.glade.h:154
 msgid "Terminator"
 msgstr "Terminator 终端终结者"
 
@@ -90,7 +90,7 @@ msgid "Multiple terminals in one window"
 msgstr "一个窗口中的多个终端"
 
 #: ../data/terminator.appdata.xml.in.h:3
-#: ../terminatorlib/preferences.glade.h:154
+#: ../terminatorlib/preferences.glade.h:155
 msgid "The robot future of terminals"
 msgstr "高级终端的未来"
 
@@ -1123,22 +1123,26 @@ msgid "Keybinding"
 msgstr "键绑定"
 
 #: ../terminatorlib/preferences.glade.h:149
+msgid "Filter:"
+msgstr ""
+
+#: ../terminatorlib/preferences.glade.h:150
 msgid "Keybindings"
 msgstr "快捷键"
 
-#: ../terminatorlib/preferences.glade.h:150
+#: ../terminatorlib/preferences.glade.h:151
 msgid "Plugin"
 msgstr "插件"
 
-#: ../terminatorlib/preferences.glade.h:151
+#: ../terminatorlib/preferences.glade.h:152
 msgid "This plugin has no configuration options"
 msgstr "此插件没有配置项"
 
-#: ../terminatorlib/preferences.glade.h:152
+#: ../terminatorlib/preferences.glade.h:153
 msgid "Plugins"
 msgstr "插件"
 
-#: ../terminatorlib/preferences.glade.h:155
+#: ../terminatorlib/preferences.glade.h:156
 msgid ""
 "The goal of this project is to produce a useful tool for arranging "
 "terminals. It is inspired by programs such as gnome-multi-term, quadkonsole, "
@@ -1158,11 +1162,11 @@ msgstr ""
 "时也希望向扩展更多不同方面的实用特性从而服务于系统管理员和其他用户。如果你有"
 "任何建议，请向wishlist中提交！（看左边的开发者链接）"
 
-#: ../terminatorlib/preferences.glade.h:158
+#: ../terminatorlib/preferences.glade.h:159
 msgid "The Manual"
 msgstr "手册"
 
-#: ../terminatorlib/preferences.glade.h:159
+#: ../terminatorlib/preferences.glade.h:160
 msgid ""
 "<a href=\"http://gnometerminator.blogspot.com/p/introduction.html"
 "\">Homepage</a>\n"
@@ -1174,13 +1178,9 @@ msgstr ""
 "<a href=\"http://gnometerminator.blogspot.com/\">博客 / 动态</a>\n"
 "<a href=\"https://launchpad.net/terminator\">开发</a>"
 
-#: ../terminatorlib/preferences.glade.h:162
+#: ../terminatorlib/preferences.glade.h:163
 msgid "About"
 msgstr "关于"
-
-#: ../terminatorlib/preferences.glade.h:163
-msgid "Filter:"
-msgstr ""
 
 #: ../terminatorlib/prefseditor.py:85
 msgid "Increase font size"
@@ -1315,158 +1315,162 @@ msgid "Maximise terminal"
 msgstr "最大化终端"
 
 #: ../terminatorlib/prefseditor.py:120
+msgid "Show/Hide tabs"
+msgstr ""
+
+#: ../terminatorlib/prefseditor.py:121
 msgid "Zoom terminal"
 msgstr "缩放终端"
 
-#: ../terminatorlib/prefseditor.py:121
+#: ../terminatorlib/prefseditor.py:122
 msgid "Switch to the next tab"
 msgstr "切换到后一个标签页"
 
-#: ../terminatorlib/prefseditor.py:122
+#: ../terminatorlib/prefseditor.py:123
 msgid "Switch to the previous tab"
 msgstr "切换到前一个标签页"
 
-#: ../terminatorlib/prefseditor.py:123
+#: ../terminatorlib/prefseditor.py:124
 msgid "Switch to the first tab"
 msgstr "切换到第一个标签页"
 
-#: ../terminatorlib/prefseditor.py:124
+#: ../terminatorlib/prefseditor.py:125
 msgid "Switch to the second tab"
 msgstr "切换到第二个标签页"
 
-#: ../terminatorlib/prefseditor.py:125
+#: ../terminatorlib/prefseditor.py:126
 msgid "Switch to the third tab"
 msgstr "切换到第三个标签页"
 
-#: ../terminatorlib/prefseditor.py:126
+#: ../terminatorlib/prefseditor.py:127
 msgid "Switch to the fourth tab"
 msgstr "切换到第四个标签页"
 
-#: ../terminatorlib/prefseditor.py:127
+#: ../terminatorlib/prefseditor.py:128
 msgid "Switch to the fifth tab"
 msgstr "切换到第五个标签页"
 
-#: ../terminatorlib/prefseditor.py:128
+#: ../terminatorlib/prefseditor.py:129
 msgid "Switch to the sixth tab"
 msgstr "切换到第六个标签页"
 
-#: ../terminatorlib/prefseditor.py:129
+#: ../terminatorlib/prefseditor.py:130
 msgid "Switch to the seventh tab"
 msgstr "切换到第七个标签页"
 
-#: ../terminatorlib/prefseditor.py:130
+#: ../terminatorlib/prefseditor.py:131
 msgid "Switch to the eighth tab"
 msgstr "切换到第八个标签页"
 
-#: ../terminatorlib/prefseditor.py:131
+#: ../terminatorlib/prefseditor.py:132
 msgid "Switch to the ninth tab"
 msgstr "切换到第九个标签页"
 
-#: ../terminatorlib/prefseditor.py:132
+#: ../terminatorlib/prefseditor.py:133
 msgid "Switch to the tenth tab"
 msgstr "切换到第十个标签页"
 
-#: ../terminatorlib/prefseditor.py:133
+#: ../terminatorlib/prefseditor.py:134
 msgid "Toggle fullscreen"
 msgstr "切换全屏"
 
-#: ../terminatorlib/prefseditor.py:134
+#: ../terminatorlib/prefseditor.py:135
 msgid "Reset the terminal"
 msgstr "重置终端"
 
-#: ../terminatorlib/prefseditor.py:135
+#: ../terminatorlib/prefseditor.py:136
 msgid "Reset and clear the terminal"
 msgstr "重置并清空终端"
 
-#: ../terminatorlib/prefseditor.py:136
+#: ../terminatorlib/prefseditor.py:137
 msgid "Toggle window visibility"
 msgstr "切换窗口可见性"
 
-#: ../terminatorlib/prefseditor.py:137
+#: ../terminatorlib/prefseditor.py:138
 msgid "Group all terminals"
 msgstr "将所有终端合为一组"
 
-#: ../terminatorlib/prefseditor.py:138
+#: ../terminatorlib/prefseditor.py:139
 msgid "Group/Ungroup all terminals"
 msgstr "分组/解组所有终端"
 
-#: ../terminatorlib/prefseditor.py:139
+#: ../terminatorlib/prefseditor.py:140
 msgid "Ungroup all terminals"
 msgstr "解组所有终端"
 
-#: ../terminatorlib/prefseditor.py:140
+#: ../terminatorlib/prefseditor.py:141
 msgid "Group terminals in tab"
 msgstr "将标签页中的终端合为一组"
 
-#: ../terminatorlib/prefseditor.py:141
+#: ../terminatorlib/prefseditor.py:142
 msgid "Group/Ungroup terminals in tab"
 msgstr "分组/解组标签页中的终端"
 
-#: ../terminatorlib/prefseditor.py:142
+#: ../terminatorlib/prefseditor.py:143
 msgid "Ungroup terminals in tab"
 msgstr "解组所有标签页中的终端"
 
-#: ../terminatorlib/prefseditor.py:143
+#: ../terminatorlib/prefseditor.py:144
 msgid "Create a new window"
 msgstr "创建一个新窗口"
 
-#: ../terminatorlib/prefseditor.py:144
+#: ../terminatorlib/prefseditor.py:145
 msgid "Spawn a new Terminator process"
 msgstr "启动一个新的Terminator进程"
 
-#: ../terminatorlib/prefseditor.py:145
+#: ../terminatorlib/prefseditor.py:146
 msgid "Don't broadcast key presses"
 msgstr "不要广播键入"
 
-#: ../terminatorlib/prefseditor.py:146
+#: ../terminatorlib/prefseditor.py:147
 msgid "Broadcast key presses to group"
 msgstr "广播键入到组"
 
-#: ../terminatorlib/prefseditor.py:147
+#: ../terminatorlib/prefseditor.py:148
 msgid "Broadcast key events to all"
 msgstr "广播键入到所有终端"
 
-#: ../terminatorlib/prefseditor.py:148
+#: ../terminatorlib/prefseditor.py:149
 msgid "Insert terminal number"
 msgstr "插入终端编号"
 
-#: ../terminatorlib/prefseditor.py:149
+#: ../terminatorlib/prefseditor.py:150
 msgid "Insert padded terminal number"
 msgstr "插入适当宽度的终端号"
 
-#: ../terminatorlib/prefseditor.py:150
+#: ../terminatorlib/prefseditor.py:151
 msgid "Edit window title"
 msgstr "编辑窗口标题"
 
-#: ../terminatorlib/prefseditor.py:151
+#: ../terminatorlib/prefseditor.py:152
 msgid "Edit terminal title"
 msgstr ""
 
-#: ../terminatorlib/prefseditor.py:152
+#: ../terminatorlib/prefseditor.py:153
 msgid "Edit tab title"
 msgstr ""
 
-#: ../terminatorlib/prefseditor.py:153
+#: ../terminatorlib/prefseditor.py:154
 msgid "Open layout launcher window"
 msgstr "打开布局启动器窗口"
 
-#: ../terminatorlib/prefseditor.py:154
+#: ../terminatorlib/prefseditor.py:155
 msgid "Switch to next profile"
 msgstr "切换到下一个配置文件"
 
-#: ../terminatorlib/prefseditor.py:155
+#: ../terminatorlib/prefseditor.py:156
 msgid "Switch to previous profile"
 msgstr "切换到上一个配置文件"
 
-#: ../terminatorlib/prefseditor.py:156
+#: ../terminatorlib/prefseditor.py:157
 msgid "Open the manual"
 msgstr "打开手册"
 
-#: ../terminatorlib/prefseditor.py:1124 ../terminatorlib/prefseditor.py:1129
+#: ../terminatorlib/prefseditor.py:1128 ../terminatorlib/prefseditor.py:1133
 msgid "New Profile"
 msgstr "新配置"
 
-#: ../terminatorlib/prefseditor.py:1169 ../terminatorlib/prefseditor.py:1174
+#: ../terminatorlib/prefseditor.py:1173 ../terminatorlib/prefseditor.py:1178
 msgid "New Layout"
 msgstr "新布局"
 
@@ -1644,19 +1648,19 @@ msgstr "插入终端编号(_I)"
 msgid "Insert _padded terminal number"
 msgstr "插入对齐的终端编号(_I)"
 
-#: ../terminatorlib/terminal.py:1376
+#: ../terminatorlib/terminal.py:1392
 msgid "Unable to find a shell"
 msgstr "无法找到shell"
 
-#: ../terminatorlib/terminal.py:1404
+#: ../terminatorlib/terminal.py:1420
 msgid "Unable to start shell:"
 msgstr "无法启动shell："
 
-#: ../terminatorlib/terminal.py:1812
+#: ../terminatorlib/terminal.py:1831
 msgid "Rename Window"
 msgstr "重命名窗口"
 
-#: ../terminatorlib/terminal.py:1821
+#: ../terminatorlib/terminal.py:1840
 msgid "Enter a new title for the Terminator window..."
 msgstr "输入新的Terminator窗口标题"
 
